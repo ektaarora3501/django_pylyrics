@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>
+    song lyrics
+  </title>
+</head>
+<body>
+  <form action="" method="POST">
+    <table align="center">
+      {% csrf_token %}
+      {{ form.as_table }}
+    </table>
+  <input type="submit" value="Submit">
+</body>
+</html>
